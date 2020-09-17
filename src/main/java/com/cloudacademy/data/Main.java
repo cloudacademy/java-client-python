@@ -23,10 +23,12 @@ public class Main {
         Jedis jedis = pool.getResource();
 
         //cache set data
+        System.out.println("writing...");
         String key = "languages";
         jedis.sadd(key, "Python", "Java", "C#", "Ruby", "NodeJS");
 
         //retrieve set data
+        System.out.println("reading...");
         Set<String> members = jedis.smembers(key);
         for (String member : members) {
             System.out.println(member);
