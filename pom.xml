@@ -9,6 +9,24 @@
 
   <name>${project.artifactId}</name>
   <description>Redis demo - creates executable jar</description>
+  <organization>
+    <name>CloudAcademy</name>
+    <url>https://cloudacademy.com</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <name>Jeremy Cook</name>
+      <email>jeremy.cook@cloudacademy.com</email>
+      <url>https://www.linkedin.com/in/jeremycook123/</url>
+      <organization>CloudAcademy</organization>
+      <organizationUrl>https://cloudacademy.com</organizationUrl>
+      <roles>
+        <role>Lead Content Architect</role>
+        <role>DevOps - Research and Trainer</role>
+      </roles>
+    </developer>
+  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
