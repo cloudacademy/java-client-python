@@ -1,1 +1,1 @@
-# java-client-python
+# redis-java-app
